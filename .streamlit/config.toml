@@ -1,0 +1,22 @@
+[theme]
+base                     = "dark"
+primaryColor             = "#58a6ff"
+backgroundColor          = "#0d1117"
+secondaryBackgroundColor = "#161b22"
+textColor                = "#e6edf3"
+font                     = "sans serif"
+
+[server]
+headless             = true
+enableCORS           = false
+enableXsrfProtection = false
+port                 = 8501
+maxUploadSize        = 50
+
+[browser]
+gatherUsageStats     = false
+serverAddress        = "0.0.0.0"
+serverPort           = 8501
+
+[runner]
+fastReruns           = true
